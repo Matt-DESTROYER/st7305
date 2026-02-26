@@ -1,3 +1,4 @@
+use display_interface::WriteOnlyDataCommand;
 use embedded_hal::digital::OutputPin;
 use embedded_graphics_core::{
 	draw_target::DrawTarget,
