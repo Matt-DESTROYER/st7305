@@ -23,7 +23,7 @@ use embedded_hal::delay::DelayNs;
 
 let mut display = St7305::new(spi, rst);
 
-display.init(&mut delay).unwrao();
+display.init(&mut delay).unwrap();
 
 display.set_orientation(Orientation::Landscape);
 
@@ -42,7 +42,7 @@ use embedded_graphics::{
 };
 
 let mut display = St7305::new(spi, rst);
-display.init(&mut delay).unwrao();
+display.init(&mut delay).unwrap();
 display.set_orientation(Orientation::Landscape);
 display.color_clear(BinaryColor::Off);
 
