@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 description = "A no_std driver for the ST7305 monochrome reflective LCD controller"
+readme = "README.md"
+repository = "https://github.com/Matt-DESTROYER/st7305"
+keywords = ["embedded", "rlcd", "driver", "graphics", "st7305"]
+categories = ["embedded"]
 
 [dependencies]
 display-interface = "0.5.0"
