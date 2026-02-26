@@ -47,7 +47,7 @@ dependencies = [
 
 [[package]]
 name = "st7305"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "display-interface",
  "embedded-graphics-core",
